@@ -1,0 +1,157 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('images/Home.jpg');
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.jumbotron  img{
+	height: 360px;
+	width: 480px;
+}
+.jumbotron .container {
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.neighborhood-guides{
+ background-color: #efefef;
+ border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2{
+ color: #393c3d;
+ font-size: 20px;
+}
+
+.neighborhood-guides p{
+ font-size: 15px;
+ margin-bottom: 13px;
+}
+
+/******Introduction******/
+.jumbotron-introduction{
+  background-image:url('images/introduction.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-introduction  img{
+	height: 360px;
+	width: 480px;
+}
+
+.jumbotron-introduction .container {
+  top:100px;
+}
+
+.jumbotron-introduction h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron-introduction p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+/*****AboutTask*****/
+.jumbotron-abouttask{
+  background-image:url('images/abouttask.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-abouttask  img{
+	height: 360px;
+	width: 480px;
+}
+
+.jumbotron-abouttask .container {
+  top:100px;
+}
+
+.jumbotron-abouttask h1 {
+  color: #fff;
+  font-size: 40px;   
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron-abouttask p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron-abouttask li {
+  font-size: 18px;
+  font-family: 'Shift', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/*****Weather*****/
+
+.jumbotron-weather{
+  background-image:url('images/weather.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-weather  img{
+	height: 360px;
+	width: 480px;
+}
+
+.jumbotron-weather .container {
+  top:100px;
+}
+
+.jumbotron-weather h1 {
+  color: #fff;
+  font-size: 40px; 
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron-weather p {
+  font-size: 18px;
+  color: #fff;
+}

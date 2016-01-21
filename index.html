@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <head>
+
+    <link rel="stylesheet" href="codecademy.css">
+	<link rel="stylesheet" href="shift.css">
+    <link rel="stylesheet" href="style.css">
+	<title>Experiement C</title>
+    
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+		  <li><a href="index.html">Home</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="task.html">About task</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Temp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jumbotron">
+	<script language="JavaScript">
+			var i = 0;
+			var path = new Array();
+			 
+			path[0] = "images/slideshow_images/place.jpg";
+			path[1] = "images/slideshow_images/wegottiotops.jpg";
+			path[2] = "images/slideshow_images/lunchbreak.jpg";
+			path[3] = "images/slideshow_images/racers.jpg";
+			path[4] = "images/slideshow_images/prepare.jpg";
+			function swapImage()
+			{
+			   document.slide.src = path[i];
+			   if(i < path.length - 1) i++; else i = 0;
+			   setTimeout("swapImage()",3000);
+			}
+			window.onload=swapImage;
+		</script>
+			<img  name="slide" src="images/slideshow_images/place.jpg" align="right" style="border: 3px solid #fff; margin-right:50px; middle;"/>
+	
+      <div class="container">
+        <h1>Welcome!</h1>
+        <p>Now, you can see my first individual work.</p>
+      </div>
+    </div> 
+    
+    <div class="neighborhood-guides">
+        <div class="container">
+    <h2>Languages</h2>
+    <p>You can make better skins, functions on a site with these language skills. "You don't have to be great to start, but you have to start to be great!"</p>
+
+    <div class="row">
+    <div class="col-md-4">
+    </div>
+
+    <div class="thumbnail">
+      <img src="images/html-css-js-logos.png" alt="Sorry, the picture is broken!">
+    </div>
+  </div>
+
+</div>
+    </div>
+</div>
+
+  </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70345950-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
