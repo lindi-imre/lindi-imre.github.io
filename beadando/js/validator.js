@@ -22,7 +22,7 @@ $( document ).ready(function() {
 			return -1;
 		}
 		
-		var message = "Köszönjük, hogy minket válaszott!\nAz Ön rendelési adatai:\nNév: " + name + "\nEmail: " + email + "\nCím: " + address + "\nSzállítás módja: ";
+		var message = "Köszönjük, hogy minket választott!\nAz Ön rendelési adatai:\nNév: " + name + "\nEmail: " + email + "\nCím: " + address + "\nSzállítás módja: ";
 		if(delivery == "fast") {
 			message += "Gyors\n";
 		}
