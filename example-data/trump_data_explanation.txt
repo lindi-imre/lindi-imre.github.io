@@ -1,0 +1,18 @@
+Trump dataset
+This dataset contains all of Donald Trump's tweets up to May 2020.
+
+Data series:
+    'tweet count'   - values     - number of tweets
+    'retweet count' - values     - number of retweets
+    'Tool'          - categories - the tool Trump used to send that tweet
+    'Tweet type'    - categories - Original tweet, Reply or Retweet by Trump
+    'DidTTI'        - categories - Did Trump Tweet it? Tweets are put into 5 categories based on the logic provided by http://didtrumptweetit.com
+    'year'          - categories - which year Trump sent that tweet
+    'month'         - categories - which month Trump sent that tweet
+    'time of day'   - categories - which time of day Trump sent that tweet. Quarter of an hour like 12:00 or 3:45.
+    'AM/PM'         - categories - which part of the day Trump sent that tweet.
+    'Periods'       - categories - At which point in his life Trump sent that tweet.
+                                   Values: 'New to Twitter', 'Businessman', 'Nominee', 'President'
+    'Dummy'         - categories - An extra data series that had to be added so that all data is processed and thus the data points sorted in the right order.
+
+Source: Trump's Twitter Archive

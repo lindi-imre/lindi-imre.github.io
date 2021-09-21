@@ -1,0 +1,15 @@
+Threats the EU citizens are most afraid of.
+
+Data series
+    'Country code'            - categories - Two-letter code of the country name - Good to show on the axis.
+    'Country'                 - categories - Name of the country
+    'Threat'                  - categories - Name of the threat
+    'Age group'               - categories - Name of the age group
+    'Answers'                 - values     - Number of people who answered in the given country and age group that the given threat is the one the EU should protect its citizens from firstly.
+    'Age group / Country [%]' - values     - Rate of answers about the given threat among the different age groups.
+
+Source:
+Eurobarometer 90.1
+Fieldwork : 08/09 - 26/09/2018
+The EU and its citizens are facing a number of threats. From which of the following should the EU protect its citizens? Firstly? (QA18a)
+
