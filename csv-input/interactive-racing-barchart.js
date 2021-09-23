@@ -8,7 +8,7 @@ nextButton.addEventListener("click", nextStep);
 function nextStep() {
 	let slider2 = document.getElementById("year-slider");
 	console.log(slider2.value);
-	slider.value = slider2.value + 1;
+	slider2.value = slider2.value + 1;
 	console.log(slider2.value);
 }
 		
