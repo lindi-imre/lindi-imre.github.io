@@ -10,6 +10,14 @@ function nextStep() {
 	console.log(slider2.value);
 	slider2.value = "1971";
 	console.log(slider2.value);
+	vizzuFinished = vizzuFinished.then(chart =>
+			chart.animate(
+				{
+					data: { filter: record => record.Year == slider2.value },
+					descriptor: { title: year } 
+				},
+				{ duration: '500ms'})
+		);
 }
 		
 
