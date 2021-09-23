@@ -14,7 +14,7 @@ function nextStep() {
 			chart.animate(
 				{
 					data: { filter: record => record.Year == slider2.value },
-					descriptor: { title: year } 
+					descriptor: { title: slider2.value } 
 				},
 				{ duration: '500ms'})
 		);
