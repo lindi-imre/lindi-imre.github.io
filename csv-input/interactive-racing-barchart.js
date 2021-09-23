@@ -2,6 +2,14 @@ import Vizzu from 'https://vizzuhq.github.io/vizzu-beta-release/0.2.0/vizzu.js';
 import dataReady from './csv-input.js'
 
 let chart = new Vizzu('myVizzu');
+let nextButton = document.getElementById("nextButton");
+nextButton.addEventListener(startPlay);
+
+function nextStep() {
+	let slider = document.getElementById("year-slider");
+	slider.value = slider.value + 1;
+}
+		
 
 let vizzuFinished = Promise.all([dataReady, chart.initializing])
 .then(([data, chart]) => 
