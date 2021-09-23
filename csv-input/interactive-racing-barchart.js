@@ -7,10 +7,33 @@ let previousButton = document.getElementById("previousButton");
 nextButton.addEventListener("click", nextStep);
 previousButton.addEventListener("click", prevStep);
 
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        console.log("up");
+		// up arrow
+    }
+    else if (e.keyCode == '40') {
+		console.log("down");
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       prevStep();
+    }
+    else if (e.keyCode == '39') {
+       nextStep();
+    }
+
+}
+
 function nextStep() {
 	let slider2 = document.getElementById("year-slider");
 	console.log(slider2.value);
-	slider2.value = (Number(slider2.value) + 1).toString();
+	slider2.value = (Number(slider2.value) + 5).toString();
 	console.log(slider2.value);
 	vizzuFinished = vizzuFinished.then(chart =>
 			chart.animate(
@@ -25,7 +48,7 @@ function nextStep() {
 function prevStep() {
 	let slider2 = document.getElementById("year-slider");
 	console.log(slider2.value);
-	slider2.value = (Number(slider2.value) - 1).toString();
+	slider2.value = (Number(slider2.value) - 5).toString();
 	console.log(slider2.value);
 	vizzuFinished = vizzuFinished.then(chart =>
 			chart.animate(
