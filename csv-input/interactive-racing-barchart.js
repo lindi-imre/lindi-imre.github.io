@@ -6,8 +6,23 @@ let nextButton = document.getElementById("nextButton");
 let previousButton = document.getElementById("previousButton");
 nextButton.addEventListener("click", nextStep);
 previousButton.addEventListener("click", prevStep);
+let visibilityButton = document.getElementById("visibility-toggle");
+visibilityButton.addEventListener("click", toogleVisibility);
+let visibility = true;
 
 document.onkeydown = checkKey;
+
+function toogleVisibility() {
+	let slider3 = document.getElementById("year-slider");
+	if(visibility) {
+		slider3.style.visibility ="hidden";
+		visibility = false;
+	}
+	else {
+		slider3.style.visibility ="visible";
+		visibility = true;
+	}
+}
 
 function checkKey(e) {
 
