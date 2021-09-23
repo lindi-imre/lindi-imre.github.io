@@ -3,7 +3,9 @@ import dataReady from './csv-input.js'
 
 let chart = new Vizzu('myVizzu');
 let nextButton = document.getElementById("nextButton");
+let nextButton = document.getElementById("previousButton");
 nextButton.addEventListener("click", nextStep);
+nextButton.addEventListener("click", prevStep);
 
 function nextStep() {
 	let slider2 = document.getElementById("year-slider");
