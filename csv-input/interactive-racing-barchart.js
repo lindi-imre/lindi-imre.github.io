@@ -6,10 +6,10 @@ let nextButton = document.getElementById("nextButton");
 nextButton.addEventListener("click", nextStep);
 
 function nextStep() {
-	let slider = document.getElementById("year-slider");
-	console.log(slider.value);
-	slider.value = slider.value + 1;
-	console.log(slider.value);
+	let slider2 = document.getElementById("year-slider");
+	console.log(slider2.value);
+	slider.value = slider2.value + 1;
+	console.log(slider".value);
 }
 		
 
