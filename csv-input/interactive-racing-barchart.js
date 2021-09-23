@@ -19,6 +19,21 @@ function nextStep() {
 				{ duration: '500ms'})
 		);
 }
+
+function prevStep() {
+	let slider2 = document.getElementById("year-slider");
+	console.log(slider2.value);
+	slider2.value = (Number(slider2.value) - 1).toString();
+	console.log(slider2.value);
+	vizzuFinished = vizzuFinished.then(chart =>
+			chart.animate(
+				{
+					data: { filter: record => record.Year == slider2.value },
+					descriptor: { title: slider2.value } 
+				},
+				{ duration: '500ms'})
+		);
+}
 		
 
 let vizzuFinished = Promise.all([dataReady, chart.initializing])
