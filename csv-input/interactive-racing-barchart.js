@@ -8,7 +8,7 @@ nextButton.addEventListener("click", nextStep);
 function nextStep() {
 	let slider2 = document.getElementById("year-slider");
 	console.log(slider2.value);
-	slider2.value = "1971";
+	slider2.value = (Number(slider2.value) + 1).toString();
 	console.log(slider2.value);
 	vizzuFinished = vizzuFinished.then(chart =>
 			chart.animate(
