@@ -1,0 +1,13 @@
+{
+  "name": "Jellyfin",
+  "version": "1.0.0",
+  "icon": "https://jellyfin.org",
+  "menu": [
+    {
+      "name": "Launch Jellyfin",
+      "icon": "https://jellyfin.org",
+      "type": "link",
+      "data": "https://jellyfin.org"
+    }
+  ]
+}	
